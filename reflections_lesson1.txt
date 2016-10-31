@@ -1,0 +1,65 @@
+########################################
+Reflection 1:
+What is the use of the diff function?
+----------------------------------
+The diff function makes it easy to read differences between versions of 
+different types of text and therefore code. If a bug pops up in a version but
+not in prior versions, the bug must ly in the difference between the two versions.
+########################################################################################################
+Reflection 2:
+Why is a history of a file a good way to improve the programming skills?
+---------------------------------------------------------
+If a history of a file and so the process of coding the exact file is made present
+the errors became obvious. Also you see different approaches towards the same problem 
+and therefore get a good input for creative problem solving.
+tl;dr; You'll become better. :D
+##############################################################################################################################
+The pros and sons of manual choosing when to commit
+-------------------------------------------------------------------------------------------
+The advantage of the manual choosing when to commit is that an auto-generated commit 
+is not capable of having the overview of the code. The changes happen random and 
+therefore mostly not at times where a logical operation has been made.
+So in the end we would happen regular commits but without a real content of the commits.
+
+The disadvantage of the manual commit choosing is that a lot of commits can happen in a 
+very short amount of time. So in extreme a lot of commits can pile up in a very short 
+time because a lot of small changes.
+Another problem is that some programmers might choose the times between commits as too long
+and the changes were huge. There is no one controlling the logical flow and sees a good
+breakpoint for a commit. So the danger exist that the a single commits adds too much.
+##########################################################################################################################################################################
+Why do some VCS have multi-File commits and other don't?
+-------------------------------------------------------------------------------
+Google Docs for example allows only commits and one document. 
+The reason for this is that Google Docs is specially designed for
+working only on one specific file. Multiple file changes won't happen
+in this context. No document changes the contents of any other.
+It's like a chapter. A chapter (mostly) doesn't render the content of 
+previous chapters to null. So cross referencing is not part of the
+working area.
+Git is designed especially for code. And you use functions, objects, and so on
+maybe not in one file but in many other parts of the programm.
+Maybe you need another function with more parameters but the existing one.
+Therefore you'll need to add this into the corresponding class file.
+In short: Cross-referencing is part of the very core of programming.
+##############################################################################################################################################################
+How can you use the commands git log and git diff to view the history of files?
+--------------------------------------------------------------------------------
+Git log as command shows all the commits made to the program. So all the changes
+made to the files are listed. The history and so the development of a program is
+made transparent to the next programmer. The diff command can show the 
+differences between commits and therefore versions of a program. It's a useful 
+tool to find bugs in a program. 
+#############################################################################################################
+How might using version control make you more confident to make changes that could break something?
+------------------------------------------------------------------------------------------------------
+The changes I make are documentated in the VCS from GitHub. So I can see when and where changes
+are made. Also GitHub allows me to switch between versions of a program to easily find the
+bug and so fix the problem.
+#####################################################################################################
+What do you want to use Git for?
+---------------------------------------
+To be fairly honest: I don't know. I don't have a current project to work on but I find it exciting to look
+into other peoples projects. I like the idea of finding inspiration in the work of other people and go
+on from there. 
+It reminds me of cooking. What have others cooked? What can I take from them to make my own dish?
