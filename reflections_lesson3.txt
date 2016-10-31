@@ -12,3 +12,16 @@ The only answer that I can think of is that by updating your local repository
 you may make some changes in the code and that could affect the changes you are
 currently working on.
 
+################################################################################
+Describe the differences between forks, clones and branches. When would you use
+one instead of another?
+-------------------------------------------------------------------------------
+A fork is like quoting the work of someone. You make credits to the original
+author and use his work in your own. But a fork is a little bit more. You can
+also suggest changes in the original work.
+A clone is a direct copy of your or someones work. I think it is more common
+use on your own directory on gitHub. If you clone the work of others you mostly
+would make a fork because of quoting.
+A branch is a part of a project and may or may not be included in the final 
+version of the project. Mostly because you are working on something experimental
+or you made a bug-fix but it is unclear if this fix causes more errors.
