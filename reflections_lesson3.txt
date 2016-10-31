@@ -1,3 +1,5 @@
 ################################################################################
 When would you want to create a remote rather than keeping all your work local?
 --------------------------------------------------------------------------------
+A good idea for a remote would be if a work in collaboration with someone and
+and he/she wants to work on my code as well. 
