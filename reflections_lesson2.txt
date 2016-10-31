@@ -1,0 +1,50 @@
+########################################################################
+What happens when you initialize a repository? Why do you need to do it?
+------------------------------------------------------------------------
+A new git directory is created. It is a hidden one because of the
+initial ".". It is necessary for uploading and commiting a new project.
+A new repository is therefore a new project I create.
+
+########################################################################
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+------------------------------------------------------------------------
+The staging area is a temporary working field. You can put files on it
+and maybe rethink if you really want to commit all of these. Therefore
+it gives you the time to rethink the changes you made. 
+
+########################################################################
+How can you use the staging area to make sure you have one commit per
+logical change?
+------------------------------------------------------------------------
+When using the git diff function you will get a list with the total 
+changes you made to your current commit. So you have an overview.
+Therefore you can see the where changes are made and if it fits the
+current logical step or is a step further.
+
+########################################################################
+What are some situations when branches would be helpful in keepin your
+history organized?
+------------------------------------------------------------------------
+A branch of a history helps to keep optional features in check while
+maintaining the functionality of the main aka master branch.
+Also it is very helpful for collaboration with others. Therefore 
+different people can work on different features on the same project
+without breaking the main functionality. 
+
+########################################################################
+How do the diagrams help you visualize the branch structure?
+------------------------------------------------------------------------
+A visual representation of the structure of a program helps to see what
+the master branch is and what branches are optional. If you know the
+branches a colleague is currently working on, you can switch to their
+branch and check it out. It helps to understand what optional changes
+can be made.
+
+########################################################################
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+------------------------------------------------------------------------
+A merge of two branches results in only one branche my adding the code 
+of one branch to the other one. The commits are added by the datetime
+they were written.
