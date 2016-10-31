@@ -3,3 +3,12 @@ When would you want to create a remote rather than keeping all your work local?
 --------------------------------------------------------------------------------
 A good idea for a remote would be if a work in collaboration with someone and
 and he/she wants to work on my code as well. 
+
+################################################################################
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+--------------------------------------------------------------------------------
+The only answer that I can think of is that by updating your local repository
+you may make some changes in the code and that could affect the changes you are
+currently working on.
+
